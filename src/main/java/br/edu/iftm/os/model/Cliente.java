@@ -1,12 +1,12 @@
 
 package br.edu.iftm.os.model;
 
-import java.util.Date;
 import java.io.Serializable;
+import java.util.Date;
 import lombok.Getter;
 import lombok.Setter;
 @Getter @Setter
-public class Cliente {
+public class Cliente implements Serializable{
     private Integer id;
     private String nomeFantasia;
     private String sobrenome;
