@@ -11,7 +11,10 @@ import javax.persistence.Table;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 @Getter @Setter
 @Entity
 @Table(name = "endereco")

@@ -4,7 +4,10 @@ import br.edu.iftm.os.logic.ClienteLogic;
 import br.edu.iftm.os.model.Cliente;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 
 @Named
 @SessionScoped

@@ -7,7 +7,10 @@ import java.lang.reflect.Type;
 import java.util.List;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 public class GenericRepository<E, ID extends Serializable> implements Serializable {
 
     @Inject

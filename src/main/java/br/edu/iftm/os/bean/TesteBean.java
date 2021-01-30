@@ -6,7 +6,10 @@ import javax.enterprise.context.SessionScoped;
 import javax.inject.Named;
 import lombok.Getter;
 import lombok.Setter;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 
 @Named
 @SessionScoped

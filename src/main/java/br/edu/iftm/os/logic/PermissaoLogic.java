@@ -9,7 +9,7 @@ import javax.inject.Inject;
 
 /**
  *
- * @author danilo
+ * @author Trabalho luiz fernando
  */
 public class PermissaoLogic implements Serializable {
     

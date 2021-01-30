@@ -3,6 +3,7 @@ package br.edu.iftm.os.model;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
+import javax.inject.Inject;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,14 +18,17 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 @Entity
 @Table(name = "os")
 @Getter @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @ToString(onlyExplicitlyIncluded = true)
 public class OS implements Serializable {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include

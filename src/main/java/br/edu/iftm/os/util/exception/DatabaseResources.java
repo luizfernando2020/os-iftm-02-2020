@@ -8,7 +8,10 @@ import javax.enterprise.inject.Produces;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 @ApplicationScoped
 public class DatabaseResources implements Serializable {
 

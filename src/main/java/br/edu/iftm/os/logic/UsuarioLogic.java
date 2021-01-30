@@ -8,7 +8,10 @@ import br.edu.iftm.os.util.exception.ErroSistemaException;
 import java.util.Date;
 import java.util.List;
 import javax.inject.Inject;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 public class UsuarioLogic implements CrudLogic<Usuario>{
 
     @Inject

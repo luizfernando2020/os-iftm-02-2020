@@ -16,7 +16,7 @@ import javax.imageio.ImageIO;
 
 /**
  *
- * @author danilo
+ * @author Trabalho luiz fernando
  */
 public class ImagemUtil {
     

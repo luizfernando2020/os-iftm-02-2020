@@ -10,7 +10,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import lombok.Getter;
 import lombok.Setter;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 @Getter
 @Setter
 public abstract class CrudBean<E, L extends CrudLogic<E>> extends JSFUtil {

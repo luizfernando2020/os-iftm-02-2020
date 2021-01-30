@@ -4,7 +4,10 @@ import br.edu.iftm.os.util.exception.ErroNegocioException;
 import br.edu.iftm.os.util.exception.ErroSistemaException;
 import java.io.Serializable;
 import java.util.List;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 public interface CrudLogic<E> extends Serializable{
     
     public E salvar(E entidade) throws ErroNegocioException, ErroSistemaException;

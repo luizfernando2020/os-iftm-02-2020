@@ -20,7 +20,10 @@ import javax.persistence.TemporalType;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 
 @Entity
 @Table(name = "usuario")

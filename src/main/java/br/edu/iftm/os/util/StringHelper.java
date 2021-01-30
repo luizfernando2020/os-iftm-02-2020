@@ -1,6 +1,9 @@
 package br.edu.iftm.os.util;
 
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 public class StringHelper {
 
 	/**

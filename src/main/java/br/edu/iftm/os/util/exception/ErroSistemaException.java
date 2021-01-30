@@ -2,7 +2,7 @@ package br.edu.iftm.os.util.exception;
 
 /**
  *
- * @author danilo
+ * @author Trabalho luiz fernando
  */
 public class ErroSistemaException extends Exception {
 

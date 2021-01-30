@@ -18,7 +18,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 @Entity
 @Table(name = "cliente")
 @Getter @Setter

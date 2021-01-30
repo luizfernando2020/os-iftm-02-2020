@@ -10,7 +10,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 @Entity
 @Table(name = "detalhes")
 @Getter @Setter
@@ -25,6 +28,6 @@ public class Detalhes implements Serializable {
     
     private String nome;
     private String tipo;//Texto, Combobox (selectOneMenu), radio e checkbox.
-    private String valores; //será usado caso de combobox, redio e checkbox.
+    private String valores; //será usado caso de combobox, radio e checkbox.
     
 }

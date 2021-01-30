@@ -2,7 +2,10 @@ package br.edu.iftm.os.util;
 
 import java.io.*;
 import java.security.*;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 public class MD5Util {
     
   public static String hex(byte[] array) {

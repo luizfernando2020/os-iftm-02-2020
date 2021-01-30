@@ -3,7 +3,10 @@ package br.edu.iftm.os.bean;
 import java.io.Serializable;
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 public class JSFUtil implements Serializable {
     
     public void addMensagem(FacesMessage.Severity tipoMensagem, String resumo, String detalhe){

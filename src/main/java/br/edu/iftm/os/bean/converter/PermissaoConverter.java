@@ -6,7 +6,10 @@ import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
 import javax.inject.Named;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 
 //@FacesConverter(forClass = Permissao.class)
 public class PermissaoConverter implements Converter {

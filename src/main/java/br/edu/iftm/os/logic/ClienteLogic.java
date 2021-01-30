@@ -8,19 +8,22 @@ import br.edu.iftm.os.util.exception.ErroSistemaException;
 import java.util.Date;
 import java.util.List;
 import javax.inject.Inject;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 public class ClienteLogic implements CrudLogic<Cliente> {
 
     @Inject
     private ClienteRepository repository;
-    
+
     @Override
     @Transacao
     public Cliente salvar(Cliente entidade) throws ErroNegocioException, ErroSistemaException {
-        if(entidade.getDataCadastro() == null){
+        if (entidade.getDataCadastro() == null) {
             entidade.setDataCadastro(new Date());
         }
-        if(entidade.getNomeFantasia() == null || entidade.getNomeFantasia().equals("")){
+        if (entidade.getNomeFantasia() == null || entidade.getNomeFantasia().equals("")) {
             throw new ErroNegocioException("Nome fantasia é obrigatório");
         }
         return repository.salvar(entidade);
@@ -34,12 +37,12 @@ public class ClienteLogic implements CrudLogic<Cliente> {
 
     @Override
     public Cliente buscarPorId(Cliente entidade) throws ErroNegocioException, ErroSistemaException {
-        if(entidade == null || entidade.getId() == null){
+        if (entidade == null || entidade.getId() == null) {
             throw new ErroNegocioException("Cliente não pode ser carregado.");
         }
         entidade = repository.buscarPorId(entidade.getId());
         return entidade;
-        
+
     }
 
     @Override
@@ -47,7 +50,9 @@ public class ClienteLogic implements CrudLogic<Cliente> {
         List clientes = repository.listar();
         return clientes;
     }
- 
-    
-    
+
+    public List<Cliente> buscar() throws ErroSistemaException {
+        return repository.listar();
+    }
+
 }

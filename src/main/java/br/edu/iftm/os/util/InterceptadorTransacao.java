@@ -8,7 +8,10 @@ import javax.interceptor.AroundInvoke;
 import javax.interceptor.Interceptor;
 import javax.interceptor.InvocationContext;
 import javax.persistence.EntityManager;
-
+/**
+ *
+ * @author Trabalho luiz fernando
+ */
 @Interceptor
 @Transacao
 public class InterceptadorTransacao implements Serializable {
